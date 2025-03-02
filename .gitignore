@@ -1,0 +1,114 @@
+# Standard OS files
+# ------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Python
+# ------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# IDE Specific
+# ------------------
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing
+# ------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+*.xml,*.cover
+.pytest
+
+
+# Database files
+database/location_records/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Local development
+*.local
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# Video Data
+*.mp4
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Ignore model files
+*.pth

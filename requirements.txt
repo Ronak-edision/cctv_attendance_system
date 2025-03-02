@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+facenet 
+torch
+torchvision
+openpyxl
+chromadb
+facenet_pytorch
+gradio
+easyocr
